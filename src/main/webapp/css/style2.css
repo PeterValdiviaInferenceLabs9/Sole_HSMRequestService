@@ -1,0 +1,91 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 30 ene. 2023, 5:04:23 p. m.
+    Author     : Luis D
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e5e5f7;
+    background: url(img/inferenceWallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 0, 10px 10px;
+    display: flex;
+    min-height: 100vh;
+}
+
+div#general{
+    margin: auto;
+    margin-top: 50px;
+    width: 600px;
+    height: 600px;
+    padding: 5em 2em;
+    text-align: center;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+}
+
+div#bloque1{
+    padding: 2em 1.2em;
+    margin: 10px 20px 10px 20px;
+    float: center;
+    width: 500px;
+    height: 470px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+div#bloque2{
+    padding: 0.3em 0.3em;
+    margin: 10px 20px 10px 20px;
+    float: center;
+    width: 500px;
+    height: 55px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.form_title{
+    font-size: 1.9rem;
+    margin-bottom: .5em;
+}
+
+.form_title2{
+    font-size: 1.2rem;
+    margin-bottom: .5em;
+}
+
+.form_title3{
+    font-size: 1rem;
+    margin-bottom: .3em;
+}
+
+.form_title4{
+    font-size: 1.5rem;
+    margin-bottom: .3em;
+}
+
+.form_submit{
+    background: #1a2537;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em 5em;
+    border: none;
+    border-radius: .5em;
+}
+
+.form_submit:hover{
+    background: cadetblue;
+}
